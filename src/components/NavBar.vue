@@ -30,7 +30,7 @@ export default {
   props: ['user'],
   data () {
     return {
-      providers: ['twitter', 'github', 'aad'],
+      providers: ['twitter', 'github', 'aad', 'google'],
       redirect: `/`
     }
   }

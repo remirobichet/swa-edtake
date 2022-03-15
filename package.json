@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "swa": "swa start http://localhost:8080/ --api-location ./api/"
+    "swa": "swa start http://localhost:8080/ --api-location ./api/ --port 3000"
   },
   "dependencies": {
     "core-js": "^3.6.4",
