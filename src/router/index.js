@@ -6,9 +6,6 @@ Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/api',
-  },
-  {
     path: '/',
     name: 'home',
     component: HomeView
