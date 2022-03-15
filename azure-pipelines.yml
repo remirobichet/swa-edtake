@@ -1,3 +1,5 @@
+# https://docs.microsoft.com/fr-fr/azure/static-web-apps/publish-devops
+
 trigger:
   - main
 
