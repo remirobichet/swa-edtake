@@ -17,6 +17,7 @@ const routes = [
     name: 'about',
     component: AboutView
   },
+  { path: ".auth/*" },
   { path: "*", component: PageNotFound }
 ]
 
