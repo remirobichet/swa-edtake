@@ -1,0 +1,30 @@
+{
+    "routes": [
+        {
+            "route": "/about",
+            "allowedRoles": [
+                "authenticated"
+            ]
+        },
+        {
+            "route": "/api/*",
+            "allowedRoles": [
+                "authenticated"
+            ]
+        }
+    ],
+    "navigationFallback": {
+        "rewrite": "index.html",
+        "exclude": ["/images/*.{png,jpg,gif}", "/css/*"]
+    },
+    "auth": {
+        "identityProviders": {
+            "github": {
+                "registration": {
+                "clientIdSettingName": "GOOGLE_CLIENT_ID",
+                "clientSecretSettingName": "GOOGLE_CLIENT_SECRET"
+                }
+            }
+        }
+    }
+}
